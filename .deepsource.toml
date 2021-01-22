@@ -1,0 +1,26 @@
+version = 1
+
+[[analyzers]]
+name = "javascript"
+enabled = true
+
+  [analyzers.meta]
+  environment = [
+    "nodejs",
+    "mocha",
+    "mongo",
+    "jasmine",
+    "browser",
+    "jest",
+    "jquery"
+  ]
+  plugins = [
+    "react",
+    "meteor",
+    "vue",
+    "angularjs",
+    "ember",
+    "angular"
+  ]
+  style_guide = "google"
+  dialect = "typescript"
